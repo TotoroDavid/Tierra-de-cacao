@@ -202,6 +202,7 @@
           "type": "button",
           "settings": {
             "title": "Button",
+            "link": "",
             "variant": "primary"
           }
         },
@@ -209,33 +210,63 @@
           "type": "button",
           "settings": {
             "title": "Button",
+            "link": "",
             "variant": "secondary"
           }
         },
         "image_1": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/10.jpg"
+          }
         },
-        "image_2": {
+        "image_EireEg": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/2C64RABSYVDHBMMSCTBMFKT2J4.jpg"
+          }
+        },
+        "image_MbREKR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/34.jpg"
+          }
         },
         "image_3": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/unnamed.jpg"
+          }
         },
         "image_4": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-06-20_at_11.30.38_AM.png"
+          }
+        },
+        "image_FqUdpQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/unnamed.jpg"
+          }
+        },
+        "image_iHyU43": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/nipsdecacao.png"
+          }
         }
       },
       "block_order": [
         "button_1",
         "button_2",
         "image_1",
-        "image_2",
+        "image_EireEg",
+        "image_MbREKR",
         "image_3",
-        "image_4"
+        "image_4",
+        "image_FqUdpQ",
+        "image_iHyU43"
       ],
       "settings": {
         "heading": "Medium length hero heading goes here",
