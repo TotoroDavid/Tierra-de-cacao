@@ -5,6 +5,7 @@
   =====================================================================================
 {% endcomment %}
 
+
 {% liquid
   assign image_blocks = section.blocks | where: 'type', 'image'
   assign total_images = image_blocks.size
@@ -101,7 +102,7 @@
   .hero-animated-gallery--{{ section.id }} .hero-animated-gallery__content {
     margin: 0 5%;
     max-width: 40rem;
-    justify-self: start;
+    justify-self: center;
   }
   .hero-animated-gallery--{{ section.id }} .hero-animated-gallery__heading {
     margin-bottom: 1.25rem;
@@ -190,7 +191,7 @@
     .hero-animated-gallery--{{ section.id }} .hero-animated-gallery__content {
       margin-left: 5vw;
       margin-right: 5rem;
-      justify-self: end;
+      justify-self: center;
     }
     .hero-animated-gallery--{{ section.id }} .hero-animated-gallery__media {
       height: 100vh;
@@ -198,6 +199,8 @@
     }
   }
 </style>
+
+{{ 'hero-animated-gallery-animations.js' | asset_url | script_tag }}
 
 {% schema %}
 {
