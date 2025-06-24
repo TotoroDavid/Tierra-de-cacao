@@ -272,6 +272,23 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "175076069751ceccb2": {
+      "type": "apps",
+      "blocks": {
+        "corner_cart_custom_satc_PGYyKg": {
+          "type": "shopify://apps/corner-cart/blocks/custom-satc/73667a27-0d48-44b7-91f9-aef741c803ed",
+          "settings": {
+            "product": "grano-de-cacao-fino-de-aroma-fermentado-y-seco"
+          }
+        }
+      },
+      "block_order": [
+        "corner_cart_custom_satc_PGYyKg"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -279,6 +296,7 @@
     "image_banner",
     "featured_collection",
     "featured_product_cfkHhC",
-    "image_with_text_rBjNyR"
+    "image_with_text_rBjNyR",
+    "175076069751ceccb2"
   ]
 }
