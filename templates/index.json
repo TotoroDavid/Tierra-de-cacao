@@ -157,9 +157,9 @@
         "button"
       ],
       "settings": {
-        "image": "shopify://shop_images/34.jpg",
+        "image": "shopify://shop_images/MiaMeshBraSting_2.webp",
         "image_overlay_opacity": 40,
-        "image_height": "large",
+        "image_height": "adapt",
         "image_behavior": "none",
         "desktop_content_position": "bottom-center",
         "desktop_content_alignment": "center",
