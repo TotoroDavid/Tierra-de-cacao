@@ -102,76 +102,6 @@
         "description": "<p>Explore the pure and organic Santander cacao. Nourish both your body and soul with every cup. Delve into the world of Santander cacao, renowned for its purity and organic nature. Experience a beverage that nourishes both the body and soul.</p>"
       }
     },
-    "featured_product_cfkHhC": {
-      "type": "featured-product",
-      "blocks": {
-        "text_UzABAM": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title_Kwq6U6": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "price_RwA9xw": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker_Hh6FJh": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector_K98xLN": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_LAV6cB": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "share_7wECHW": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "text_UzABAM",
-        "title_Kwq6U6",
-        "price_RwA9xw",
-        "variant_picker_Hh6FJh",
-        "quantity_selector_K98xLN",
-        "buy_buttons_LAV6cB",
-        "share_7wECHW"
-      ],
-      "name": "t:sections.featured-product.presets.name",
-      "settings": {
-        "product": "grano-de-cacao-fino-de-aroma-fermentado-y-seco",
-        "color_scheme": "scheme-1",
-        "secondary_background": true,
-        "media_size": "medium",
-        "constrain_to_viewport": true,
-        "media_fit": "cover",
-        "media_position": "right",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -288,30 +218,82 @@
         "padding_bottom": 36
       }
     },
-    "175076069751ceccb2": {
-      "type": "apps",
+    "featured_product_cfkHhC": {
+      "type": "featured-product",
       "blocks": {
-        "corner_cart_custom_satc_PGYyKg": {
-          "type": "shopify://apps/corner-cart-drawer-free-gift/blocks/custom-satc/73667a27-0d48-44b7-91f9-aef741c803ed",
+        "text_UzABAM": {
+          "type": "text",
           "settings": {
-            "product": "grano-de-cacao-fino-de-aroma-fermentado-y-seco"
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_Kwq6U6": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_RwA9xw": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_Hh6FJh": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_K98xLN": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_LAV6cB": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_7wECHW": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
           }
         }
       },
       "block_order": [
-        "corner_cart_custom_satc_PGYyKg"
+        "text_UzABAM",
+        "title_Kwq6U6",
+        "price_RwA9xw",
+        "variant_picker_Hh6FJh",
+        "quantity_selector_K98xLN",
+        "buy_buttons_LAV6cB",
+        "share_7wECHW"
       ],
+      "name": "t:sections.featured-product.presets.name",
       "settings": {
-        "include_margins": true
+        "product": "grano-de-cacao-fino-de-aroma-fermentado-y-seco",
+        "color_scheme": "scheme-1",
+        "secondary_background": true,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "cover",
+        "media_position": "right",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "hero_animated_gallery_beQLPa",
-    "featured_product_cfkHhC",
     "featured_collection",
     "image_banner",
     "image_with_text_rBjNyR",
-    "175076069751ceccb2"
+    "featured_product_cfkHhC"
   ]
 }
