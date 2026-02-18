@@ -103,17 +103,17 @@
     "collapsible_content_bGN8Kd": {
       "type": "collapsible-content",
       "blocks": {
-        "collapsible_row_tDqiFM": {
+        "collapsible_row_NpQPz6": {
           "type": "collapsible_row",
-          "source": "{{ product.metafields.custom.product_fqas.value }}",
+          "repeater": "{{ product.metafields.custom.faqs_v1.value }}",
           "settings": {
-            "heading": "{{ product.metafields.custom.product_fqas.value.question.value }}",
-            "row_content": "{{ product.metafields.custom.product_fqas.value.answer | metafield_tag }}"
+            "heading": "{{ block.repeater.question.value }}{{ block.settings.page.title }}",
+            "row_content": "{{ block.repeater.answer | metafield_tag }}<p>{{ block.repeater.question.value }}</p>"
           }
         }
       },
       "block_order": [
-        "collapsible_row_tDqiFM"
+        "collapsible_row_NpQPz6"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
