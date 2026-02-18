@@ -9,44 +9,167 @@
  */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "hero_animated_gallery_beQLPa": {
+      "type": "hero-animated-gallery",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "button_qiTHCU": {
+          "type": "button",
           "settings": {
-            "heading": "clothing brand store for gym",
-            "heading_size": "hxxl"
+            "title": "Ver Cacaos →",
+            "link": "shopify://collections/all",
+            "variant": "primary"
           }
         },
-        "button": {
-          "type": "buttons",
+        "button_M8Afgw": {
+          "type": "button",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "title": "Suscribirme",
+            "link": "#ContactFooter",
+            "variant": "secondary"
+          }
+        },
+        "image_4taRMt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/34.jpg"
+          }
+        },
+        "image_yQRKNa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2C64RABSYVDHBMMSCTBMFKT2J4.jpg"
+          }
+        },
+        "image_A4Qqyw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/10.jpg"
+          }
+        },
+        "image_73CgDi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cacao_grano_completo.jpg"
+          }
+        },
+        "image_3LqgXd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Copia-de-nibs-de-cacao-502-e1614438913720.jpg"
+          }
+        },
+        "image_9BhqxE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/nibs_1024x1024_5907a47d-07cc-4ebe-ad85-5f0a77d761e3.webp"
+          }
+        },
+        "image_FNyqgA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/unnamed.jpg"
+          }
+        },
+        "image_c4GcJC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-06-20_at_11.30.59_AM.png"
+          }
+        },
+        "image_GxVJ8c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-06-20_at_11.30.47_AM.png"
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "button_qiTHCU",
+        "button_M8Afgw",
+        "image_4taRMt",
+        "image_yQRKNa",
+        "image_A4Qqyw",
+        "image_73CgDi",
+        "image_3LqgXd",
+        "image_9BhqxE",
+        "image_FNyqgA",
+        "image_c4GcJC",
+        "image_GxVJ8c"
       ],
+      "name": "Héroe con Galería Animada",
       "settings": {
-        "image": "shopify://shop_images/fitness-workout.jpg",
-        "image_overlay_opacity": 60,
-        "image_height": "large",
-        "image_behavior": "none",
-        "desktop_content_position": "bottom-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": false,
-        "color_scheme": "scheme-4",
-        "stack_images_on_mobile": false,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
+        "heading": "lorem_ipsim",
+        "description": "<p>Explore the pure and organic Santander cacao. Nourish both your body and soul with every cup.</p>"
+      }
+    },
+    "featured_product_cfkHhC": {
+      "type": "featured-product",
+      "blocks": {
+        "text_UzABAM": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_Kwq6U6": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_RwA9xw": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_Hh6FJh": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_K98xLN": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_LAV6cB": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_7wECHW": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_UzABAM",
+        "title_Kwq6U6",
+        "price_RwA9xw",
+        "variant_picker_Hh6FJh",
+        "quantity_selector_K98xLN",
+        "buy_buttons_LAV6cB",
+        "share_7wECHW"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "grano-de-cacao-fino-de-aroma-fermentado-y-seco",
+        "color_scheme": "scheme-1",
+        "secondary_background": true,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "cover",
+        "media_position": "right",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_collection": {
@@ -76,10 +199,119 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Tierra de Cacao: Autenticidad desde las Montañas de El Playón</strong>",
+            "heading_size": "h0"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/34.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "image_behavior": "none",
+        "desktop_content_position": "bottom-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-3",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "image_with_text_rBjNyR": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_8e6bBH": {
+          "type": "heading",
+          "settings": {
+            "heading": "cacao montaña",
+            "heading_size": "h1"
+          }
+        },
+        "text_VKDxgy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_tdbgUV": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_8e6bBH",
+        "text_VKDxgy",
+        "button_tdbgUV"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/10.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "175076069751ceccb2": {
+      "type": "apps",
+      "blocks": {
+        "corner_cart_custom_satc_PGYyKg": {
+          "type": "shopify://apps/corner-cart-drawer-free-gift/blocks/custom-satc/73667a27-0d48-44b7-91f9-aef741c803ed",
+          "settings": {
+            "product": "grano-de-cacao-fino-de-aroma-fermentado-y-seco"
+          }
+        }
+      },
+      "block_order": [
+        "corner_cart_custom_satc_PGYyKg"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
+    "hero_animated_gallery_beQLPa",
+    "featured_product_cfkHhC",
+    "featured_collection",
     "image_banner",
-    "featured_collection"
+    "image_with_text_rBjNyR",
+    "175076069751ceccb2"
   ]
 }
